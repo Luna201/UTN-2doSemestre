@@ -1,0 +1,74 @@
+Sintaxis similares entre java y JS
+
+Operadores simplificados/compuestos
++=
+-=
+*=
+/=
+%=
+**= (exponente)
+
+Operadores aritmeticos
++
+-
+*
+/
+% (residuo)
+** (exponente)
+
+Operadores de Aumento
+++
+Ejemplo: Let z = ++a;  (PreIncremento)
+Ejemplo: z= a++;  (PosIncremento)
+
+Operadores de Decremento
+--
+Ejemplo: Let z = --a;  (PreDecremento)
+Ejemplo: z= a--;  (PosDecremento)
+
+Operadores de asignacion
+=
+
+Operador distinto, diferente          //Boolean
+!= (comprueba valores sin revisar)
+!== (Comprueba el valor y tambien el tipo)
+
+Los operadores simplificados tambien asignan.
+Operadores de comparacion         //Boolean
+== (revisa el valor sin importar el tipo de dato)
+=== (JS, revisa el valor y el tipo)
+
+Operadores relacionales //Boolean
+<
+>
+<=
+>=
+
+Operadores Lógicos
+And -> && Doble aspersan
+Or -> 
+
+Documentar
+// = Para una linea de comentario
+/*  */= Para multiples líneas de comando
+
+Secuencia de escape
+\`= Mostrar una comilla simple dentro de una cadena en la salida de informacion
+\"= Mostrar doble comillasdentro de una cadena en la salida de informacion
+\\= Barra invertida, diagonal inversa, es para mostrar una back slash
+\n= Salto de linea
+\r= Retorno
+\t= tabulación 
+\b= Retroceso
+\f= Salto de pagina
+
+No se permite iniciar una variable con un nro
+
+let x, y;     //Se puede crear varia variables dentro de una linea
+x= 17, y=21;  //Se puede hacer asiganciones a varias variables dentro de una linea
+
+let z = x + y;// se asigna el valor de la operación
+
+Son sensibles a las mayusculas
+
+
