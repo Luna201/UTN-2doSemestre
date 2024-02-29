@@ -30,3 +30,13 @@ Ejemplo:    frase = vivir por siempre en paz
             Nº de caracteres = 21
 
 -FuncionesDePython: definición de función
+
+CLASE 6:
+Ejercicio 11: Agenda telefonica
+Hacer un programa que simule una agenda de telefono. Crear un diccionario
+donde la clave sea el nombre del ususario y el valor sea el telefono,
+el programa tendra el siguiente menu de opciones:
+1. Nuevo contacto
+2. Borrar contacto
+3. Ver contactos existentes
+4. Salir
