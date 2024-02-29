@@ -32,7 +32,7 @@ Ejemplo:    frase = vivir por siempre en paz
 -FuncionesDePython: definición de función
 
 CLASE 6:
-Ejercicio 11: Agenda telefonica
+- Ejercicio 11: Agenda telefonica
 Hacer un programa que simule una agenda de telefono. Crear un diccionario
 donde la clave sea el nombre del ususario y el valor sea el telefono,
 el programa tendra el siguiente menu de opciones:
@@ -40,3 +40,7 @@ el programa tendra el siguiente menu de opciones:
 2. Borrar contacto
 3. Ver contactos existentes
 4. Salir
+
+-Ejercicio 10: No rpetir caracteres
+Hacer un programa que pida una cadena por teclado, luego
+meter los caracteres en la lista sin repetir caracteres.
