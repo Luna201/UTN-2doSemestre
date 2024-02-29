@@ -3,7 +3,7 @@ Hacer un programa donde el usuario ingrese una frase, se le devolvera la misma f
 y además un contador de cúantos caracteres tien la frase (sin contar los espacios en blanco)
 Ejemplo:    frase = vivir por siempre en paz
             frase final = vivirporsiempreenpaz
-            Nº de caracteres = 20"""
+            Nº de caracteres = 21"""
 
 frase1 = input("Digite una frase: ")
 frase2 = " "
