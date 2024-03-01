@@ -41,3 +41,37 @@ bottleC = [{"name": "Quilmes", "country": "Arg"},
 Arg = [b for b in bottleC if b["country"] == "Arg"]
 print(Arg)
 print(bottleC)
+
+
+# Paso de Argumentos (funciones)
+def mi_funcion2(name, lastName):
+    print("Saludos a todos lo que ven a través del canal de YouTube")
+    print(f"Nombre: {name}, Apellido: {lastName}")
+mi_funcion2("Jorge", "Lucero")
+mi_funcion2("Ariel", "Betancud")
+mi_funcion2("Analia", "Pedrosa")
+
+
+# La palabra Return en funciones
+# Creamos una funcion para sumar
+def sumar(a, b):
+    return a + b
+"""resultado = sumar(78, 22)
+print(f"El resultado de la suma es: {resultado}")   """
+print(f"El resultado de la suma es: {sumar(55, 45)}")   #opcion reducida
+
+
+#Valores por Defaul
+def sumar2(a = 0, b= 0) :    #Le damos un valor por default
+    return a + b
+resultado = sumar2()
+print(f"Resultado de la suma: {resultado}")
+print(f"Resultado de la suma: {sumar2(22, 66)}")
+
+
+# Argumentos variables en funciones
+def listarNombres(*nombres):    #Es la forma cuando no se conoce el nro de argumentos: *args
+    for nombre in nombres:  #Se convierte en tupla
+        print(nombre)
+listarNombres("Lucas", "Jose", "Claudia", "Rosa")
+listarNombres("Marcos", "Daniel", "Romina", "Carlos")
