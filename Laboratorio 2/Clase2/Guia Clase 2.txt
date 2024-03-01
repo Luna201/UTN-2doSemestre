@@ -1,0 +1,31 @@
+GUIA CLASE 2:
+
+Tipo Set: no tiene orden ni se puede modificar, PERO, se puede agregar o eliminar es semi-inmutable. El orden es aleatorio
+#Len muestra la cantidad
+# Revisar si un elemento existe dentro de set
+# Agregar un elemento
+# Eliminar elementos, puede arrojar error si el elemento no exite
+# Limpiar Set
+# Eliminar Set o conjunto
+# DICCIONARIO
+# Verifica la cantidad de elementos
+# Acceder a un diccionario con la llaver=key
+# otra manera de recuperar un elemento
+# Modificamos elementos
+# Como recorrer los elementos
+# Necesitamos una funcion para recorrer el diccionario
+# Otras maneras de acceder a un diccionario
+# usamos una funcion para acceder a un valor
+# Comprobar la existencia de algun elemento
+# Agregar un elemento
+# Eliminar un elemento
+# Vaciar un diccionario
+# Eliminar diccionario
+# concatenamos listas
+# Una funcion para agregar varios elementos a la lista
+# Funcion para ubicar en que indice esta el valor ingresado
+# Como saber cuantos valores repetidos hay dentro de una lista
+# Para poner la lista al reves
+# Para que una lista se multiplique
+# Metodo de ordenamiento
+# REPASO DE TUPLAS

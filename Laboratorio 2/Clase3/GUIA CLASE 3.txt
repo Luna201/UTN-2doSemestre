@@ -1,7 +1,22 @@
--COLECCION CLASE:
+GUIA CLASE 3:
+
+-COLECCION CLASE 3
 # Tipo Set
 # DICCIONARIO
 # REPASO DE TUPLAS
 # Repaso de set o conjunto para definir un conjunto
+# Como hacer la igualdad de 2 conjuntos
+# Operaciones en conjuntos
+# Como saber si ambos conjuntnos son disconexos, esto es si no comparten elementos en comun
+# convertir un conjunto totalmente en inmutable
+# Repaso de diccionarios
+# los diccionarios pueden almacenar diferentes tipos de datos
+# Pilas usando listas
+# Agregar elementos a la pila por el final
+# Sacamos elementos desde el final
+# Colas con listas. Estructuras de datos de tipo fifo(first input/first output
+# Agregamos elementos al final de la cola
+# Sacamos elementos de la cola
+
 
 -Ejercicio diccionario: ejercicio con la selección Argentina

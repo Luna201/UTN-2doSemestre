@@ -168,10 +168,10 @@ conjunto2.add("Hola")
 print(conjunto2)
 conjunto1.add("hola")
 print(conjunto1)
-print(3 not in conjunto1)   #Preguntamos si el número e NO esta en el conjunto1
+print(3 not in conjunto1)   #Preguntamos si el número 3 NO esta en el conjunto1
 
 
-print("Como hacer la igualdad de 2 conjuntos")
+print("# Como hacer la igualdad de 2 conjuntos")
 print(conjunto1 == conjunto2)   #Nos devuelve como rspuesta un booleano
 
 print("# Operaciones en conjuntos")
@@ -199,7 +199,7 @@ print(conjunto3.issuperset(conjunto1))  #si es V el conjunto3 es un superconjunt
 print("# Como saber si ambos conjuntnos son disconexos, esto es si no comparten elementos en comun")
 print(conjunto1.isdisjoint(conjunto2))  #No hay cosas en comun
 
-print("# convertir un conjunto totalmente en unmutable")
+print("# convertir un conjunto totalmente en inmutable")
 conjunto1 = frozenset   #Esto hace que el conjunto sea totalmente inmutable
 # No se puede agregar, modificat ni eliminar elementos del conjunto
 

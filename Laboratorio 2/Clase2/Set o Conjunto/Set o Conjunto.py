@@ -71,7 +71,7 @@ print(" # Como recorrer los elementos: ")
 for termino in diccionario:
     print(termino)
 
-#Necesitamos una funcion para recorrer el diccionario
+# Necesitamos una funcion para recorrer el diccionario
 for termino, valor in diccionario.items():
     print(termino, valor)
 
@@ -89,7 +89,7 @@ print(" # Comprobar la existencia de algun elemento: ")
 print("IDE" in diccionario) # Devuelve un booleano
 
 
-print(" #Agregar un elemento: ")
+print(" # Agregar un elemento: ")
 diccionario["PK"] = "Primary key"
 print(diccionario)
 
@@ -126,7 +126,7 @@ print(lista3.index(5))      #Funcion para ubicar en que indice esta el valor ing
 #print(lista3.index(0))     #esto da error por no ser parte de la lista
 
 
-print(" # Com osaber cuantos valores repetidos hay dentro de una lista: ")
+print(" # Como saber cuantos valores repetidos hay dentro de una lista: ")
 print(lista3.count(1))      #cuenta cuantos valores iguales hay dentro de la lista
 
 

@@ -1,0 +1,36 @@
+GUIA CLASE 1:  
+
+-Clase1 - Listas
+# LISTAS O ARREGLOS O VECTORES
+# ir desde el inicio de la lista al indice deseado (no lo incluye)
+# Desde el inicio hasta el final
+# Modificamos un valor
+# Iterar una lista
+# Preguntamos cuantos elementos tiene una lista
+# Agregamos un elemento
+# Insertar un elemento en un indice especifico
+# Eliminamos un elemento
+# Eliminamos el ultimo elemento
+# Se elimina un indice especifico
+# Eliminar, borrar o limpiar todos los elementos
+# Eliminar la lista
+
+- Tuplas
+# Definimos una Tupla, similar a una LISTA, pero es inmutable
+# Len se usa para numerar las tuplas
+# Acceder a un elemento, para esto se usa corchetes, NO parentesis
+# mostrar de manera inversa
+# Acceder a un rango
+# recorremos los elementos de la tupla
+# Para cambiar la tupla se la debe convertir en Lista, cambiarla y convertirla nuevamente a tupla
+# eliminar tupla
+
+- Ejercicio Tuplas
+# DADA LA SIGUIENTE TUPLA
+tupla = (13, 1, 8, 3, 2, 5, 8)  #Definimos la tupla
+Crear una lista que solo incluya los números menores a 5 e imprima por consola [1, 3, 2]
+
+- Ejercicios 1, 2 y 3
+# EJERCICIO 1: Iterar un rango de 0 a 10 e imprimir nùmeros divisibles entre 3
+# EJERCICIO 2: Crear un rango d nros de 2 a 6 e imprimirlos
+# EJERCICIO 3: crear un rango de 3 a 10, con decremento de 2 en 2

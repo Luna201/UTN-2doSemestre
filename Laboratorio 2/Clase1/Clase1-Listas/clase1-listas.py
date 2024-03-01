@@ -2,7 +2,7 @@
 #a cada elemento se le asigna un indice: 0, 1, 2, 3...
 # LISTAS O ARREGLOS O VECTORES
 
-nombres = ["Naty", "Osvaldo", "Luna", "Andrés"] #el una lista pueden haber distintos datos, string, int, etc
+nombres = ["Naty", "Osvaldo", "Luna", "Andrés"] #en una lista pueden haber distintos datos, string, int, etc
 print(nombres)
 """
 print(nombres[0])
@@ -18,10 +18,10 @@ print(nombres[0:2])  #Solo muestra el indice 0 y 1, pero no el 2
 # ir desde el inicio de la lista al indice deseado (no lo incluye)
 print(nombres[ :3])  #muestra 0,1,2
 
-#Desde el inicio hasta el final
+# Desde el inicio hasta el final
 print(nombres[0: ])
 
-#Modificamos un valor
+# Modificamos un valor
 nombres[2] = "Mate"
 print(nombres)
 

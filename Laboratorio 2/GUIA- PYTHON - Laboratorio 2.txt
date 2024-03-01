@@ -1,0 +1,132 @@
+GUIA CLASE 1:  
+
+-Clase1 - Listas
+# LISTAS O ARREGLOS O VECTORES
+# ir desde el inicio de la lista al indice deseado (no lo incluye)
+# Desde el inicio hasta el final
+# Modificamos un valor
+# Iterar una lista
+# Preguntamos cuantos elementos tiene una lista
+# Agregamos un elemento
+# Insertar un elemento en un indice especifico
+# Eliminamos un elemento
+# Eliminamos el ultimo elemento
+# Se elimina un indice especifico
+# Eliminar, borrar o limpiar todos los elementos
+# Eliminar la lista
+
+- Tuplas
+# Definimos una Tupla, similar a una LISTA, pero es inmutable
+# Len se usa para numerar las tuplas
+# Acceder a un elemento, para esto se usa corchetes, NO parentesis
+# mostrar de manera inversa
+# Acceder a un rango
+# recorremos los elementos de la tupla
+# Para cambiar la tupla se la debe convertir en Lista, cambiarla y convertirla nuevamente a tupla
+# eliminar tupla
+
+- Ejercicio Tuplas
+# DADA LA SIGUIENTE TUPLA
+tupla = (13, 1, 8, 3, 2, 5, 8)  #Definimos la tupla
+Crear una lista que solo incluya los números menores a 5 e imprima por consola [1, 3, 2]
+
+- Ejercicios 1, 2 y 3
+# EJERCICIO 1: Iterar un rango de 0 a 10 e imprimir nùmeros divisibles entre 3
+# EJERCICIO 2: Crear un rango d nros de 2 a 6 e imprimirlos
+# EJERCICIO 3: crear un rango de 3 a 10, con decremento de 2 en 2
+
+
+
+GUIA CLASE 2:
+
+Tipo Set: no tiene orden ni se puede modificar, PERO, se puede agregar o eliminar es semi-inmutable. El orden es aleatorio
+#Len muestra la cantidad
+# Revisar si un elemento existe dentro de set
+# Agregar un elemento
+# Eliminar elementos, puede arrojar error si el elemento no exite
+# Limpiar Set
+# Eliminar Set o conjunto
+# DICCIONARIO
+# Verifica la cantidad de elementos
+# Acceder a un diccionario con la llaver=key
+# otra manera de recuperar un elemento
+# Modificamos elementos
+# Como recorrer los elementos
+# Necesitamos una funcion para recorrer el diccionario
+# Otras maneras de acceder a un diccionario
+# usamos una funcion para acceder a un valor
+# Comprobar la existencia de algun elemento
+# Agregar un elemento
+# Eliminar un elemento
+# Vaciar un diccionario
+# Eliminar diccionario
+# concatenamos listas
+# Una funcion para agregar varios elementos a la lista
+# Funcion para ubicar en que indice esta el valor ingresado
+# Como saber cuantos valores repetidos hay dentro de una lista
+# Para poner la lista al reves
+# Para que una lista se multiplique
+# Metodo de ordenamiento
+# REPASO DE TUPLAS
+
+
+
+GUIA CLASE 3:
+
+-COLECCION CLASE 3
+# Tipo Set
+# DICCIONARIO
+# REPASO DE TUPLAS
+# Repaso de set o conjunto para definir un conjunto
+# Como hacer la igualdad de 2 conjuntos
+# Operaciones en conjuntos
+# Como saber si ambos conjuntnos son disconexos, esto es si no comparten elementos en comun
+# convertir un conjunto totalmente en inmutable
+# Repaso de diccionarios
+# los diccionarios pueden almacenar diferentes tipos de datos
+# Pilas usando listas
+# Agregar elementos a la pila por el final
+# Sacamos elementos desde el final
+# Colas con listas. Estructuras de datos de tipo fifo(first input/first output
+# Agregamos elementos al final de la cola
+# Sacamos elementos de la cola
+
+
+-Ejercicio diccionario: ejercicio con la selección Argentina
+
+
+
+
+
+GUIA CLASE 4:
+
+-Ejercicio1: Eliminar duplicados de una lista. Escribir un programa donde tenga una lista y que a continuacion elimine
+los elementos repetidos, por ultimo mostrar la lista.
+
+-Ejercicio 1 de matemática. Sacar la raiz cuadrada de un número positivo
+
+-Ejercicio 2: Operaciones de conjuntos con listas.
+Escribir un programa que tenga 2 listas y que a continuación cree las siguientes listas
+(en las que no debe haber repetición)
+1- Lista de palabras que aparecen en las listas
+2- Lista de palabras que aparecen en la 1ra lista, pero no en la 2da
+3- Lista de palabras que aparecen en la 2da lista, pero no en la primera
+4- Lista de palabras que aparecen en ambas listas
+
+-Ejercicio 3: Agregar personajes a una lista
+Escriba un programa donde cree una lista con los siguientes personajes del Señor de los Anillos.
+
+-Ej 1-Llenar lista: Llenar una lista con los números del 1 al 50, luego mostrar la lista con el ciclo for
+los elementos deben mostrarse de la siguiente forma:
+1-2-3-4-5-...-50
+
+-Ej 2: Modificar los elementos de una lista.
+Llenar una lista con los nros del 1 al 10, luego modificar los elementos de la lista,
+ multiplicandolos por un valor ingresado por el usuario
+
+-ej 3-Insert elementos: Insertar elementos y ordenarlos.
+Pedir números y meterlos en una lista, cuando el usuario introduzca un nro 0,
+nuestro programa dejaría de insertar. Por último, mostrar los nros ordenados crecientemente
+
+
+
