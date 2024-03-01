@@ -45,4 +45,8 @@ el programa tendra el siguiente menu de opciones:
 3. Ver contactos existentes
 4. Salir
 
+- DEsempaquetado de listas o list Unpacking
 
+-Repaso del Ciclo for else
+
+- List comprehesion, lista de compresion. NO modifica la lista, SOLO extrae
