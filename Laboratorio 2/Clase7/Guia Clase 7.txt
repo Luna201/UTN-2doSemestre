@@ -1,0 +1,8 @@
+ESTA EN CLASE 5, FUNCIONESdePYTHON
+
+Ejercicio 02: Función con *args para multiplicar.
+Crear una función para multiplicar los valores recibidos de tipo numéricos, utilizando
+argumentos variables *args como parámetro de la función y regresar como resultado la
+multiplicación de todos los valores pasados com argumentos
+
+- Argumentos variables con diccionarios

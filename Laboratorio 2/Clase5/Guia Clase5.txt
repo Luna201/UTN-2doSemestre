@@ -31,7 +31,11 @@ Ejemplo:    frase = vivir por siempre en paz
 
 -FuncionesDePython: definición de función
 
+
+
+
 CLASE 6:
+
 -Ejercicio 10: No rEpetir caracteres
 Hacer un programa que pida una cadena por teclado, luego
 meter los caracteres en la lista sin repetir caracteres.
@@ -63,3 +67,14 @@ el programa tendra el siguiente menu de opciones:
 utilizando argumentos variables *args como parametro de la Función y agregar como
 resultado de la suma de todos los valores pasados como argumentos
 definimos la función
+
+
+
+CLASE 7
+
+- Ejercicio 02: Función con *args para multiplicar.
+Crear una función para multiplicar los valores recibidos de tipo numéricos, utilizando
+argumentos variables *args como parámetro de la función y regresar como resultado la
+multiplicación de todos los valores pasados com argumentos
+
+- Argumentos variables con diccionarios

@@ -8,7 +8,10 @@ mi_funcion()    #Llamamos la función
 mi_funcion()
 
 
+
+
 # CLASE 6
+
 #DEsempaquetado de listas o list Unpacking
 def show(name, lastName):
     print(name+" "+lastName)
@@ -75,3 +78,15 @@ def listarNombres(*nombres):    #Es la forma cuando no se conoce el nro de argum
         print(nombre)
 listarNombres("Lucas", "Jose", "Claudia", "Rosa")
 listarNombres("Marcos", "Daniel", "Romina", "Carlos")
+
+
+
+
+# CLASE 7
+#Argumentos variables con diccionarios
+def listarTerminos(**terminos):  #añade un diccionario completo (y en vez de *args predefinido es **kwargs significa key word argument)
+    for llave, valor in terminos.items():    #terminos.items es para recorrer diccionarios
+        print(f"{llave} : {valor}")
+listarTerminos()    #nada se muestra
+listarTerminos(IDE = "Integrated Develoment Enviroment", PK = "Primary Key")
+listarTerminos(Nombre ="Lionel Messi")
