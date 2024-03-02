@@ -129,4 +129,108 @@ Pedir números y meterlos en una lista, cuando el usuario introduzca un nro 0,
 nuestro programa dejaría de insertar. Por último, mostrar los nros ordenados crecientemente
 
 
+CLASE 5:
 
+-Ejercicio 04: Sumar números pares dentro de un rango
+Hacer un programa para sumar nros pares dentro de un rango, por ejemplo:
+_ suma de nros pares del 2 al 30
+_ suma=240
+
+- Ejercicio 5: Factorial de un nro positivo
+Hacer un programa para calcular el factorial de un nro positivo
+
+-Ejercicio 6: Tabla de multiplicar
+Hacer un programa que pida un nro por teclado y guarde en una lista su tabla de multiplicar hasta el 10. Por ejemplo:
+Si digita el 5 la lista tendrá: 5,10,15,20,25,30,35,40,45,50
+
+-Ejercicio 7: Juego adivina el nro
+Realizar un juego para adivinar un nro. Para ello se debe generar un nro aleatorio entre 1-100, y luego ir pidiendo
+nros indicando "es mayor" o "es menor" según sea mayor o menor respecto a N. El proceso termina cuando el usuario
+acierta y allí se debe mostrar el nro de intentos
+
+-Ejercicio 8: Menú interactivo - Cajero automatico
+Hacer un programa qu esimule un cajero autoamtico con un saldo inicial de $1000 y tendra las opciones:
+1. Ingresar dinero en la cuenta
+2. Retirar dinero de la cuenta
+3. Mostrar dinero disponible
+4. Salir
+
+-Ejercicio 9: Mostrar frases sin espacios y contar su longitud.
+Hacer un programa donde el usuario ingrese una frase, se le devolvera la misma frase pero sin espacios en blanco,
+y además un contador de cúantos caracteres tien la frase (sin contar los espacios en blanco)
+Ejemplo:    frase = vivir por siempre en paz
+            frase final = vivirporsiempreenpaz
+            Nº de caracteres = 21
+
+-FuncionesDePython: definición de función
+
+
+
+
+CLASE 6 (ESTAN EN LA CLASE 5):
+
+-Ejercicio 10: No rEpetir caracteres
+Hacer un programa que pida una cadena por teclado, luego
+meter los caracteres en la lista sin repetir caracteres.
+
+- Ejercicio 11: Agenda telefonica
+Hacer un programa que simule una agenda de telefono. Crear un diccionario
+donde la clave sea el nombre del ususario y el valor sea el telefono,
+el programa tendra el siguiente menu de opciones:
+1. Nuevo contacto
+2. Borrar contacto
+3. Ver contactos existentes
+4. Salir
+
+# DEsempaquetado de listas o list Unpacking
+
+# Repaso del Ciclo for else
+
+# List comprehesion, lista de compresion. NO modifica la lista, SOLO extrae
+
+# Paso de Argumentos (funciones)
+
+# La palabra Return en funciones
+
+# Valores por Defaul
+
+# Argumentos variables en funciones #Es la forma cuando no se conoce el nro de argumentos: *args
+
+- Ejercicio 01: Crear una función para sumar los valores recibidos de tipo numéricos,
+utilizando argumentos variables *args como parametro de la Función y agregar como
+resultado de la suma de todos los valores pasados como argumentos
+definimos la función
+
+
+
+CLASE 7 (ESTAN EN LA CLASE 5)
+
+- Ejercicio 02: Función con *args para multiplicar.
+Crear una función para multiplicar los valores recibidos de tipo numéricos, utilizando
+argumentos variables *args como parámetro de la función y regresar como resultado la
+multiplicación de todos los valores pasados com argumentos
+
+# Argumentos variables con diccionarios
+
+# Lista de elementos con funciones (convertir)
+
+# Funciones de recursividad: una función recursiva que se llama a si misma para cumplir con una tarea
+ Necesita un caso base y uno recursivo
+
+#TAREA, QUE EL USUARIO INGRESE EL NRO FACTORIAL
+
+- Ejercicio 03: Función recursiva
+Imprimir números de 5 a 1 de manera descendente usando funciones recursivas. Puede ser cualquier
+valor positivo, por ejemplo, si pasamos el nro 5, debe imprimir:
+5
+4
+3
+2
+1
+si se ingresan nros negativos no se imprime nada"""
+
+- Ejercicio 4: Calculadora de impuestos
+Crear una función para calcular el total de un pago incluyendo un impuesto aplicado (IVA)
+
+- Ejercicio 5: Convertidor de temperaturas
+Realizar dos funciones para convertir de grados celcius a fahrenheit y viceversa.

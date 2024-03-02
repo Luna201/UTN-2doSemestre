@@ -1,3 +1,5 @@
+CLASE 5:
+
 -Ejercicio 04: Sumar números pares dentro de un rango
 Hacer un programa para sumar nros pares dentro de un rango, por ejemplo:
 _ suma de nros pares del 2 al 30

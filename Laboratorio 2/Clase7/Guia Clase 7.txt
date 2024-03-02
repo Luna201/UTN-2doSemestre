@@ -1,8 +1,31 @@
-ESTA EN CLASE 5, FUNCIONESdePYTHON
+CLASE 7: (ESTA EN CLASE 5, FUNCIONESdePYTHON)
 
 Ejercicio 02: Función con *args para multiplicar.
 Crear una función para multiplicar los valores recibidos de tipo numéricos, utilizando
 argumentos variables *args como parámetro de la función y regresar como resultado la
 multiplicación de todos los valores pasados com argumentos
 
-- Argumentos variables con diccionarios
+# Argumentos variables con diccionarios
+
+# Lista de elementos con funciones (convertir)
+
+# Funciones de recursividad: una función recursiva que se llama a si misma para cumplir con una tarea
+ Necesita un caso base y uno recursivo
+
+#TAREA, QUE EL USUARIO INGRESE EL NRO FACTORIAL
+
+- Ejercicio 03: Función recursiva
+Imprimir números de 5 a 1 de manera descendente usando funciones recursivas. Puede ser cualquier
+valor positivo, por ejemplo, si pasamos el nro 5, debe imprimir:
+5
+4
+3
+2
+1
+si se ingresan nros negativos no se imprime nada"""
+
+- Ejercicio 4: Calculadora de impuestos
+Crear una función para calcular el total de un pago incluyendo un impuesto aplicado (IVA)
+
+- Ejercicio 5: Convertidor de temperaturas
+Realizar dos funciones para convertir de grados celcius a fahrenheit y viceversa.
