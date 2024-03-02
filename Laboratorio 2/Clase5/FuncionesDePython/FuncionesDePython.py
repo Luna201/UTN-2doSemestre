@@ -90,3 +90,39 @@ def listarTerminos(**terminos):  #añade un diccionario completo (y en vez de *a
 listarTerminos()    #nada se muestra
 listarTerminos(IDE = "Integrated Develoment Enviroment", PK = "Primary Key")
 listarTerminos(Nombre ="Lionel Messi")
+
+
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+nombres2 = ["Tito", "Pedro", "Carlos"]
+desplegarNombres(nombres2)
+desplegarNombres("Carla")
+#desplegarNombres(10, 11)    (error: un entero no es un valor iterable)
+desplegarNombres((10, 11))  #Para verlos se convierten en tupla, debe haber mas de 1
+desplegarNombres([22, 55])  #para verlos se convierten en una lista, debe haber mas de 1
+
+
+
+# Funciones de recursividad: una función recursiva que se llama a si misma para cumplir con una tarea
+# Necesita un caso base y uno recursivo
+"""def factorial(numero):
+    if numero == 1: #caso base
+        return 1
+    else:
+        return numero * factorial(numero-1) #Caso recursivo
+
+resultado = factorial(5)    #Lo hacemos en código duro
+print(f"El factorial del número 5 es: {resultado}")"""
+
+#TAREA, QUE EL USUARIO INGRESE EL NRO FACTORIAL
+
+def factorial(numero):
+    if numero == 1:
+        return 1
+    else:
+        return numero * factorial(numero - 1)
+
+numero = int(input("Digite un número para trabajar: "))
+print(f"El resultado del número {numero} es: {factorial(numero)}")
+

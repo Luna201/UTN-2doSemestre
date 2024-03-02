@@ -49,21 +49,21 @@ el programa tendra el siguiente menu de opciones:
 3. Ver contactos existentes
 4. Salir
 
-- DEsempaquetado de listas o list Unpacking
+# DEsempaquetado de listas o list Unpacking
 
--Repaso del Ciclo for else
+# Repaso del Ciclo for else
 
-- List comprehesion, lista de compresion. NO modifica la lista, SOLO extrae
+# List comprehesion, lista de compresion. NO modifica la lista, SOLO extrae
 
--Paso de Argumentos (funciones)
+# Paso de Argumentos (funciones)
 
--La palabra Return en funciones
+# La palabra Return en funciones
 
--Valores por Defaul
+# Valores por Defaul
 
--Argumentos variables en funciones #Es la forma cuando no se conoce el nro de argumentos: *args
+# Argumentos variables en funciones #Es la forma cuando no se conoce el nro de argumentos: *args
 
--Ejercicio 01: Crear una función para sumar los valores recibidos de tipo numéricos,
+- Ejercicio 01: Crear una función para sumar los valores recibidos de tipo numéricos,
 utilizando argumentos variables *args como parametro de la Función y agregar como
 resultado de la suma de todos los valores pasados como argumentos
 definimos la función
@@ -77,4 +77,12 @@ Crear una función para multiplicar los valores recibidos de tipo numéricos, ut
 argumentos variables *args como parámetro de la función y regresar como resultado la
 multiplicación de todos los valores pasados com argumentos
 
-- Argumentos variables con diccionarios
+# Argumentos variables con diccionarios
+
+# Lista de elementos con funciones (convertir)
+
+# Funciones de recursividad: una función recursiva que se llama a si misma para cumplir con una tarea
+ Necesita un caso base y uno recursivo
+
+#TAREA, QUE EL USUARIO INGRESE EL NRO FACTORIAL
+
