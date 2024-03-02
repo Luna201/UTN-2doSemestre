@@ -86,3 +86,8 @@ multiplicación de todos los valores pasados com argumentos
 
 #TAREA, QUE EL USUARIO INGRESE EL NRO FACTORIAL
 
+- Ejercicio 4: Calculadora de impuestos
+Crear una función para calcular el total de un pago incluyendo un impuesto aplicado (IVA)
+
+- Ejercicio 5: Convertidor de temperaturas
+Realizar dos funciones para convertir de grados celcius a fahrenheit y viceversa.
