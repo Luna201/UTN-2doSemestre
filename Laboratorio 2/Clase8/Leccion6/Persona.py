@@ -15,3 +15,13 @@ print(f"El objeto2 de la clase persona: {persona2.nombre}, {persona2.apellido}, 
 
 #TAREA: HACER PRINT CON LAS VARIABLES DEL OBJETO PERSONA1
 print(f"El objeto1 de la clase persona es: {persona1.nombre}, {persona1.apellido}, y su edad es {persona1.edad}")
+
+persona1.nombre= "Liliana"
+persona1.apellido= "Buccella"
+persona1.edad= 40
+print(f"El objeto1 modificado de la clase persona es: {persona1.nombre}, {persona1.apellido}, y su edad es {persona1.edad}")
+
+#Los atributos son: caracteristicas
+#Los metodos son: el comportamiento que van a tener los objetos (acciones)
+
+
