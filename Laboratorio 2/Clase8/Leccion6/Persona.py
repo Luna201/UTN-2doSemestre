@@ -1,11 +1,15 @@
-class Persona:  #Creamos una clase
-    
-    def __init__(self, nombre, apellido, edad): #Se define un método dentro de la clase
-        self.nombre = nombre   #atributos (de metodo) - Variables
+class Persona:  # Creamos una clase
+
+    def __init__(self, nombre, apellido, edad):  # Se define un método dentro de la clase
+        self.nombre = nombre  # atributos (de metodo) - Variables
         self.apellido = apellido
         self.edad = edad
 
-persona1 = Persona("Ariel", "Betancud", 40)    #Objeto, Constructor que apunta a init (se debe colocar argumento)
+    def mostrar_detalle(self):      #la variable self se encuentra dentro de los metodos
+        print(f"Persona: {self.nombre} {self.apellido} {self.edad}")
+
+
+persona1 = Persona("Ariel", "Betancud", 40)  # Objeto, Constructor que apunta a init (se debe colocar argumento)
 print(persona1.nombre)
 print(persona1.apellido)
 print(persona1.edad)
@@ -13,15 +17,17 @@ print(persona1.edad)
 persona2 = Persona("Osvaldo", "Giordanini", 45)
 print(f"El objeto2 de la clase persona: {persona2.nombre}, {persona2.apellido}, su edad es {persona2.edad}")
 
-#TAREA: HACER PRINT CON LAS VARIABLES DEL OBJETO PERSONA1
+# TAREA: HACER PRINT CON LAS VARIABLES DEL OBJETO PERSONA1
 print(f"El objeto1 de la clase persona es: {persona1.nombre}, {persona1.apellido}, y su edad es {persona1.edad}")
 
-persona1.nombre= "Liliana"
-persona1.apellido= "Buccella"
-persona1.edad= 40
-print(f"El objeto1 modificado de la clase persona es: {persona1.nombre}, {persona1.apellido}, y su edad es {persona1.edad}")
+persona1.nombre = "Liliana"
+persona1.apellido = "Buccella"
+persona1.edad = 40
+print(
+    f"El objeto1 modificado de la clase persona es: {persona1.nombre}, {persona1.apellido}, y su edad es {persona1.edad}")
 
-#Los atributos son: caracteristicas
-#Los metodos son: el comportamiento que van a tener los objetos (acciones)
+# Los atributos son: caracteristicas
+# Los metodos son: el comportamiento que van a tener los objetos (acciones)
 
-
+persona1.mostrar_detalle()
+persona2.mostrar_detalle()
