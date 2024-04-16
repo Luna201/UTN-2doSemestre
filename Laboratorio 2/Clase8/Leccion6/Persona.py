@@ -4,7 +4,7 @@ class Persona:  # Creamos una clase
         # *args argumento variables para tuplas, **kwargs argumento variables para diccionarios
         self.nombre = nombre  # atributos (de metodo) - Variables
         self.apellido = apellido
-        self._dni = dni  # este atributo esta encapsulado de una manera sugerida
+        self._dni = dni  # _este atributo esta encapsulado de una manera sugerida //    __ asi se encapsula completamente
         self.edad = edad
         self.args = args
         self.kwargs = kwargs
