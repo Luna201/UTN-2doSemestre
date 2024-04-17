@@ -37,49 +37,45 @@ class Persona2:
         print("Estamos usando el método set")
         self._edad = edad
 
+    def __del__(self):
+        print(f"Persona2: {self._nombre} {self._apellido} {self._edad}")
 
 if __name__ == "__main__":
     persona1 = Persona2("Ariel", "Betancud", 41)
-print(persona1.nombre)  # o   print(persona1.nombre())    Llamamos al método getter
+    print(persona1.nombre)  # o   print(persona1.nombre())    Llamamos al método getter
 
-persona1 = Persona2("Ariel", "Betancud", 41)
-print(persona1.apellido)
+    persona1.nombre = "Juan Pedro"
+    print(persona1.nombre)
+    print(persona1.nombre)  # otra vez con el metodo getter
+    print(persona1.mostrar_detalles())  # Llamamos el método mostrar_detalles
+    # Atributo read-only seria la edad porque no tiene el método setter
+    print(persona1.edad)
 
-persona1 = Persona2("Ariel", "Betancud", 41)
-print(persona1.edad)
+    # EJERCICIO:
+    # Crear 3 objetos más, utilizandolos métodos getter and setter para modificar, y mostrar los cambios con
+    # el método mostrar_detalles
+    persona2 = Persona2("Flor", "Romero", 23)
+    persona2.nombre = "Florencia"
+    persona2.apellido = "Romery"
+    persona2.edad = 22
+    print(persona2.mostrar_detalles())
 
-persona1.nombre = "Juan Pedro"
-print(persona1.nombre)
-print(persona1.nombre)  # otra vez con el metodo getter
-print(persona1.mostrar_detalles())  # Llamamos el método mostrar_detalles
-# Atributo read-only seria la edad porque no tiene el método setter
-print(persona1.edad)
+    persona3 = Persona2("Caro", "Felisa", 21)
+    persona3.nombre = "Carolina"
+    persona3.apellido = "Romery"
+    persona3.edad = 31
+    print(persona3.nombre)
+    print(persona3.apellido)
+    print(persona3.edad)
+    print(persona3.mostrar_detalles())
 
-# EJERCICIO:
-# Crear 3 objetos más, utilizandolos métodos getter and setter para modificar, y mostrar los cambios con
-# el método mostrar_detalles
-persona2 = Persona2("Flor", "Romero", 23)
-persona2.nombre = "Florencia"
-persona2.apellido = "Romery"
-persona2.edad = 22
-print(persona2.mostrar_detalles())
+    persona4 = Persona2("Naty", "Lucer", 35)
+    persona4.nombre = "Natalia"
+    persona4.apellido = "Lucero"
+    persona4.edad = 33
+    print(persona4.nombre)
+    print(persona4.apellido)
+    print(persona4.edad)
+    print(persona4.mostrar_detalles())
 
-persona3 = Persona2("Caro", "Felisa", 21)
-persona3.nombre = "Carolina"
-persona3.apellido = "Romery"
-persona3.edad = 31
-print(persona3.nombre)
-print(persona3.apellido)
-print(persona3.edad)
-print(persona3.mostrar_detalles())
-
-persona4 = Persona2("Naty", "Lucer", 35)
-persona4.nombre = "Natalia"
-persona4.apellido = "Lucero"
-persona4.edad = 33
-print(persona4.nombre)
-print(persona4.apellido)
-print(persona4.edad)
-print(persona4.mostrar_detalles())
-
-print(__name__)
+    print(__name__)  # comprobacion del método principal
