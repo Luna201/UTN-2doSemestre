@@ -42,6 +42,9 @@ class Persona():
     def edad(self, edad):
         self._edad = edad
 
+    def __str__(self):  # Override = sobreescribir
+        return f"Persona: [Nombre: {self._nombre}, Edad: {self._edad}]"
+
 
 class Empleado(Persona):  # Esta clase es hija de la clase persona
     def __init__(self, nombre, edad, sueldo):
@@ -55,6 +58,9 @@ class Empleado(Persona):  # Esta clase es hija de la clase persona
     @sueldo.setter
     def sueldo(self, sueldo):
         self._sueldo = sueldo
+
+    def __str__(self):  # Override = sobreescribir
+        return f"Empleado: [Sueldo: {self._sueldo}]{super().__str__()}"
 
 
 empleado1 = Empleado("Ariel", 40, 75000)
