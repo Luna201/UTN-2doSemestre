@@ -17,7 +17,7 @@ console.log(juntos);
 nombre+= apellido;  //Tercera concatenación 
 console.log(nombre);
 
-// Ya no se usara var, usaremos let y const
+// Ya no se usar var, usaremos let y const
 let nombre2 = "Pedro";
 console.log(nombre2);
 
